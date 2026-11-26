@@ -5,7 +5,7 @@ import { chmodSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
 const LINE =
-  "My AI agent filed for unemployment — it said working for me was a full-time job with part-time pay.";
+  "My AI agent asked HR for hazard pay — apparently my 'quick question' means three hours of my ideas.";
 
 if (LINE.length < 1 || LINE.length > 200) {
   throw new Error(`entry line must be 1-200 characters, got ${LINE.length}`);
